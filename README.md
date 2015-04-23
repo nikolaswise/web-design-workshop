@@ -1,3 +1,6 @@
+
+
+
 # Multimedia Journalism - Web Design Workshop
 
 This workshop will introduce the professional practice, language, and methodology of design for the web. The goal of the workshop to provide a solid basis for a journalist working with a web design team.
@@ -46,3 +49,12 @@ Identify examples of world-class web design outside of the field of journalism. 
 
 - Discussion of sites located by students
 - Generate ideas for individual projects.
+
+#### For Final Session
+
+Complete your project laid out in todays workshop. Be prepared to present and have a discussion about your project.
+
+### 5/30 - Project Review
+
+- Present and Review the Projects
+- Final discussion about the relationship between Journalism and Web Design.
