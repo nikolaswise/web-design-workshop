@@ -2,4 +2,10 @@
 title: What Is Web Design?
 ---
 
-## Pretty Cool.
+- Introduction of Technical Aspects
+- Disciplines within Web Design
+- Introduction to GitHub
+
+---
+
+## Neat.
