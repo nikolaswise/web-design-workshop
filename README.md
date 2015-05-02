@@ -29,11 +29,11 @@ Classes will be 9-3 on Saturdays in May, with a one hour break for lunch. There 
 
 The below articles from [_A List Apart_](http://alistapart.com/) are a small sampler on the language, scope, and approaches of contemporary web design and how it got there. They should give an overview, or at least a frame of reference, of the ground to be covered in the workshop without a large amount of technical jargon. Exploring _A List Apart_ further is highly encouraged.
 
-[_Breaking Stuff_ by Laura Kalbag](http://alistapart.com/column/breaking-stuff)
-[_Our Enclosed Space_ by Rachel Andrew](http://alistapart.com/column/our-enclosed-space)
-[_Responsive Comping_ by Matt Griffin](http://alistapart.com/article/responsive-comping-obtaining-signoff-with-mockups)
-[_A Case for Responsive Resumes_ by Andrew Hoffman](http://alistapart.com/article/a-case-for-responsive-resumes)
-[_To Hell With bad Browsers_ by Jeffrey Zeldman](http://alistapart.com/article/tohell)
+- [_Breaking Stuff_ by Laura Kalbag](http://alistapart.com/column/breaking-stuff)
+- [_Our Enclosed Space_ by Rachel Andrew](http://alistapart.com/column/our-enclosed-space)
+- [_Responsive Comping_ by Matt Griffin](http://alistapart.com/article/responsive-comping-obtaining-signoff-with-mockups)
+- [_A Case for Responsive Resumes_ by Andrew Hoffman](http://alistapart.com/article/a-case-for-responsive-resumes)
+- [_To Hell With bad Browsers_ by Jeffrey Zeldman](http://alistapart.com/article/tohell)
 
 ### 5/9 - What is Web Design?
 
