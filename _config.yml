@@ -10,8 +10,8 @@ relative_permalinks:  true
 
 # Setup
 title:                J608
-tagline:              'Web Design Workshop'
-description:          "An introduction to the principles and practice designing for the Internet."
+tagline:              'Web Design Workshop - Introductory Pixel Pushing'
+description:          "An introduction to the principles and practice of designing things for the Internet."
 url:                  /web-design-workshop
 baseurl:              '/web-design-workshop'
 paginate:             5
