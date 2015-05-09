@@ -1,11 +1,11 @@
 
 # Web Design Terms Worth Knowing
 
-**HTML**
+**HTML** the STRUCTURE
 
-**CSS**
+**CSS** THE DESIGN
 
-**JavaScript**
+**JavaScript** EVERYTHING!!!! THE INTERACTION
 
 **API**
 
