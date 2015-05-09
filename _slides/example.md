@@ -51,17 +51,3 @@ Works that logic that enables the internet.
 
 ## HTML
 
-```
-<body>
-  <header>
-    <h1>Simple Site</h1>
-  </header>
-  <main>
-    <p>Hello World!</p>
-  </main>
-  <footer>
-    <!-- Footer content Lives Here -->
-  </footer>
-  <script src="script.js"></script>
-</body>
-```
