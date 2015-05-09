@@ -11,7 +11,8 @@ title: What Is The Tech Stack?
 
 ---
 
-# The Client / The Browser
+# The Client
+## The Browser
 
 Resolves a URL. The Browser interprets what it finds at the URL.
 
@@ -21,7 +22,8 @@ Resolves a URL. The Browser interprets what it finds at the URL.
 
 ---
 
-# The Server / The Cloud
+# The Server
+## The Cloud
 
 Decides what to send to the client.
 
@@ -33,7 +35,7 @@ Works that logic that enables the internet.
 
 ---
 
-# "Full Stack"
+# Full Stack
 
 - HTML
 - CSS
@@ -43,3 +45,37 @@ Works that logic that enables the internet.
 ---
 
 # The Front End
+
+
+---
+
+## HTML
+
+```
+<body>
+  <header>
+    <h1>Simple Site</h1>
+  </header>
+  <main>
+    <p>Hello World!</p>
+  </main>
+  <footer>
+    <!-- Footer content Lives Here -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+```
+
+---
+
+## Markdown
+
+---
+
+```
+# I am a Header!
+
+Here, take [this](http://stackoverflow.com/).
+
+A way to write **markup** that's _easy._
+```
