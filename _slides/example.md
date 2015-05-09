@@ -65,17 +65,3 @@ Works that logic that enables the internet.
   <script src="script.js"></script>
 </body>
 ```
-
----
-
-## Markdown
-
----
-
-```
-# I am a Header!
-
-Here, take [this](http://stackoverflow.com/).
-
-A way to write **markup** that's _easy._
-```
