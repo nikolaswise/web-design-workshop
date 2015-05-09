@@ -2,8 +2,11 @@
 title: What Is The Tech Stack?
 ---
 
-# The Server | The Back End
-# The Client | The Front End
+```js
+function wow () {
+  console.log('no way')
+}
+```
 
 ---
 
