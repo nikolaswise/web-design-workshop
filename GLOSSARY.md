@@ -5,12 +5,14 @@
 [Step by step, day by day](http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository)
 
 **HTML**
+Hot Tamales? Maybe Later
 
 **CSS**
 
 **JavaScript**
 
 **API**
+All Pretty Impressive.
 
 **SDK**
 
