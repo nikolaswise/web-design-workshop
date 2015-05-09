@@ -10,7 +10,8 @@ function wow () {
 
 ---
 
-# The Client / The Browser
+# The Client
+## The Browser
 
 Resolves a URL. The Browser interprets what it finds at the URL.
 
@@ -20,7 +21,8 @@ Resolves a URL. The Browser interprets what it finds at the URL.
 
 ---
 
-# The Server / The Cloud
+# The Server
+## The Cloud
 
 Decides what to send to the client.
 
