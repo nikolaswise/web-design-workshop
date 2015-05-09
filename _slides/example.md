@@ -44,7 +44,7 @@ Works that logic that enables the internet.
 
 ## HTML
 
-```
+```html
 
 ```
 
@@ -54,7 +54,7 @@ Works that logic that enables the internet.
 
 ---
 
-```
+```md
 # I am a Header!
 
 Here, take [this](http://stackoverflow.com/).
@@ -68,7 +68,7 @@ A way to write **markup** that's _easy._
 
 ---
 
-```
+```css
 body {
   color: #EA4035;
 }
@@ -83,7 +83,7 @@ h1 {
 
 ---
 
-```
+```css
 $cinnabar: #EA4035;
 
 body {
@@ -97,7 +97,7 @@ body {
 
 ---
 
-```
+```js
 var hello = function(name) {
   console.log('hello ' + name );
 }
@@ -119,7 +119,7 @@ Defines and executes behaviors and interactions of the project between the user 
 
 ---
 
-```
+```js
 $i = 0
 $num = 5
 
@@ -135,7 +135,7 @@ end
 
 ---
 
-```
+```js
 var http = require('http');
 
 var server = http.createServer(function (request, response) {
@@ -171,7 +171,7 @@ Lets servers communicate with each other.
 
 ---
 
-```
+```curl
 https://api.twitter.com/1.1/friends/ids.json?cursor=-1&screen_name=nikolaswise&count=5000
 ```
 
@@ -183,7 +183,7 @@ Packages of code that allow easy implementation of complex functions
 
 ---
 
-```
+```js
 twitter.getFollowersList({screename: 'nikolaswise', count: '5000'}, errorCallback, successCallback);
 ```
 
