@@ -52,7 +52,7 @@ Identify examples of world-class web design outside of the field of journalism. 
 
 #### For Final Session
 
-Complete your project laid out in todays workshop. Be prepared to present and have a discussion about your project.
+Complete your project laid out in todays workshop. Be prepared to present and have a discussion about your project. Purchase tequila shots and drink them.
 
 ### 5/30 - Project Review
 
