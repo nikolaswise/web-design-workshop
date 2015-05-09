@@ -2,12 +2,14 @@
 # Web Design Terms Worth Knowing
 
 **HTML**
+Hot Tamales? Maybe Later
 
 **CSS**
 
 **JavaScript**
 
 **API**
+All Pretty Impressive.
 
 **SDK**
 
