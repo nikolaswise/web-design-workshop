@@ -2,6 +2,7 @@
 title: What Is The Tech Stack?
 ---
 
+<<<<<<< HEAD
 # The Server | The Back End
 # The Client | The Front End
 
@@ -203,3 +204,6 @@ twitter.getFollowersList({screename: 'nikolaswise', count: '5000'}, errorCallbac
 
 
 
+=======
+## Pretty Cool.
+>>>>>>> parent of d3dc043... test out slide outline
