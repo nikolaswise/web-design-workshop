@@ -80,6 +80,11 @@ The below articles from [_A List Apart_](http://alistapart.com/) are a small sam
 
 ## Schedule
 
+### Before The First Session
+- Sign up for an [account on Github](https://github.com/join?source=header-home).
+- [Fork](https://help.github.com/articles/fork-a-repo/) this [repository](https://github.com/nikolaswise/web-design-workshop).
+- Fixing typos in this syllabus via a [Pull Request](https://help.github.com/articles/using-pull-requests/) will be seen as an excellent start.
+
 ### 4/24 - What is Web Design?
 
 - Introduction of Technical Aspects
