@@ -1,0 +1,37 @@
+
+{
+  "name": "web-design-workshop",
+  "version": "2.0.0",
+  "description": "This workshop will introduce the professional practice, language, and methodology of design for the web. The goal of the workshop to provide a solid basis for a journalist working with a web design team.",
+  "author": "Nikolas Wise <nikolaswise@gmail.com> (http://nikolas.ws/)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "imagemin-newer": "^1.0.1",
+    "live-server": "^0.9.2",
+    "node-sass": "^3.4.2",
+    "npm-run-series": "^1.0.0",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.5.1",
+    "rerun-script": "^0.6.0",
+    "static-site": "^1.1.4",
+    "surge": "^0.17.7",
+    "uglify-js": "^2.6.2"
+  },
+  "watches": {
+    "img": "source/**/*.{jpg,jpeg,png,svg,gif}",
+    "js": "source/*.js",
+    "html": "source/**/*.html"
+  },
+  "scripts": {
+    "sass": "node-sass source/ --output-style compressed --source-map build/ -o build/",
+    "postsass": "postcss -u autoprefixer -r build/*.css",
+    "img": "imagemin-newer source/ build/",
+    "html": "static-site -b build",
+    "js": "uglifyjs source/slides.js -o build/slides.js",
+    "prestart": "npm-run-series img sass html js",
+    "start": "parallelshell 'live-server build/' 'rerun-script' 'npm run sass -- -w'",
+    "predeploy": "npm run prestart",
+    "deploy": "surge build/ --domain css-rules.surge.sh"
+  }
+}
