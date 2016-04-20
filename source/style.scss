@@ -5,16 +5,25 @@ html {
 }
 
 body {
+  font-family: 'GT Sectra Trial';
   width: 100%;
   height: 100%;
   font-size: 24px;
   background: url('bg.png') center center no-repeat transparent;
 }
 
+.custom {
+  cursor: url(bmo.gif), crosshair;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GT Sectra Display Trial';
+}
+
 .slide {
   display: none;
   width: auto;
-  height: 100vh;
+  height: 80vh;
   margin: 0 auto;
   padding: 0 10%;
   box-sizing: border-box;
