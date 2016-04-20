@@ -88,6 +88,8 @@ The below articles from [_A List Apart_](http://alistapart.com/) are a small sam
 
 #### For Next Session
 
+Read Paul Ford's excellent expose [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+
 Create a website using github pages using HTML, CSS, and JavaScript. This web site needs at least 3 pages. The content should be something that you think is interesting. An explanation of the project will live in the repo's `README.md` file, and be written in Markdown.
 
 ##### Grad Students
