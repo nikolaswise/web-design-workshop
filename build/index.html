@@ -142,11 +142,8 @@ A way to write <span class="hljs-strong">**markup**</span> that's <span class="h
     </div>
     <div class="slide" id="14">
       <div class="slide-content">
-<pre><code class="css"><span class="hljs-tag">body</span> <span class="hljs-rules">{
-  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#EA4035</span></span></span>;
-}</span>
-<span class="hljs-class">.custom</span> <span class="hljs-rules">{
-   <span class="hljs-rule"><span class="hljs-attribute">cursor</span>:<span class="hljs-value"> <span class="hljs-function">url</span>(/bmo.gif), auto</span></span>;
+<pre><code class="css"><span class="hljs-class">.where-bmo-at</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">cursor</span>:<span class="hljs-value"> <span class="hljs-function">url</span>(bmo.gif), crosshair</span></span>;
 }</span>
 </code></pre>
 
@@ -188,7 +185,11 @@ hello(<span class="hljs-string">'Nikolas'</span>);
     </div>
     <div class="slide" id="19">
       <div class="slide-content">
-<p>Defines and executes behaviors and interactions of the project between the user and the client, the user and the server.</p>
+<ul>
+<li>Defines and executes behaviors and interactions.</li>
+<li>Mediates between the user and the client.</li>
+<li>Mediates between the client and the server.</li>
+</ul>
 
       </div>
     </div>
@@ -270,7 +271,8 @@ server.listen(<span class="hljs-number">8000</span>);
     </div>
     <div class="slide" id="29">
       <div class="slide-content">
-<pre><code>http<span class="hljs-variable">s:</span>//api.twitter.<span class="hljs-keyword">com</span>/<span class="hljs-number">1.1</span>/friends/ids.json?<span class="hljs-built_in">cursor</span>=-<span class="hljs-number">1</span>&amp;screen_name=nikolaswise&amp;<span class="hljs-built_in">count</span>=<span class="hljs-number">5000</span>
+<pre><code>http<span class="hljs-variable">s:</span>//api.twitter.<span class="hljs-keyword">com</span>/<span class="hljs-number">1.1</span>/friends/
+ids.json?<span class="hljs-built_in">cursor</span>=-<span class="hljs-number">1</span>&amp;screen_name=nikolaswise&amp;<span class="hljs-built_in">count</span>=<span class="hljs-number">5000</span>
 </code></pre>
 
       </div>
@@ -284,11 +286,97 @@ server.listen(<span class="hljs-number">8000</span>);
     </div>
     <div class="slide" id="31">
       <div class="slide-content">
-<pre><code class="js">twitter.getFollowersList({screename: <span class="hljs-string">'nikolaswise'</span>, count: <span class="hljs-string">'5000'</span>}, errorCallback, successCallback);
+<pre><code class="js">twitter.getFollowersList({
+  screename: <span class="hljs-string">'nikolaswise'</span>,
+  count: <span class="hljs-string">'5000'</span>
+}, errorCallback, successCallback);
 </code></pre>
 
       </div>
     </div>
+
+    <div class="slide" id="32">
+      <div class="slide-content">
+<h1>So How do I Internet</h1>
+<p>you have to make a web site, so how do you do that</p>
+
+      </div>
+    </div>
+
+    <div class="slide" id="33">
+      <div class="slide-content">
+<ul>
+<li>A Server</li>
+<li>A CSS File</li>
+<li>A JavaScript File</li>
+<li>HTML Files</li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="slide" id="34">
+      <div class="slide-content">
+<h1>A Server</h1>
+<p>Github Pages</p>
+<p>nikolaswise.github.io/web-design-workshop</p>
+
+      </div>
+    </div>
+
+    <div class="slide" id="35">
+      <div class="slide-content">
+<h1>A CSS File</h1>
+<pre><code class="css">&lt;!<span class="hljs-tag">--</span> <span class="hljs-tag">style</span><span class="hljs-class">.js</span> <span class="hljs-tag">--</span>&gt;
+<span class="hljs-tag">body</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fefefe</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#333333</span></span></span>;
+}</span>
+</code></pre>
+
+      </div>
+    </div>
+
+    <div class="slide" id="36">
+      <div class="slide-content">
+<h1>A JS File</h1>
+<pre><code class="js">&lt;!-- script.js --&gt;
+<span class="hljs-built_in">window</span>.addEventListener(<span class="hljs-string">'click'</span>, hello);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">hello</span> (<span class="hljs-params">e</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'hello world'</span>);
+}
+</code></pre>
+
+      </div>
+    </div>
+
+    <div class="slide" id="37">
+      <div class="slide-content">
+<h1>HTML Files</h1>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">!</span> <span class="hljs-attribute">index.html</span>&gt;</span>
+<span class="hljs-doctype">&lt;!doctype html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"utf-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"IE=edge"</span> <span class="hljs-attribute">http-equiv</span>=<span class="hljs-value">"X-UA-Compatible"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"viewport"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"width=device-width, user-scalable=no"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>My Cool Internet<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"style.css"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"./a-cool-page.html"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"./another-great-page.html"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Pretty Great And Cool<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"script.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+      </div>
+    </div>
+
+
+
 
     <script src="slides.js" async></script>
   </body>

@@ -186,11 +186,8 @@ A way to write **markup** that's _easy._
 {% markdown %}
 
 ```css
-body {
-  color: #EA4035;
-}
-.custom {
-   cursor: url(/bmo.gif), auto;
+.where-bmo-at {
+  cursor: url(bmo.gif), crosshair;
 }
 ```
 
@@ -249,7 +246,9 @@ hello('Nikolas');
       <div class="slide-content">
 {% markdown %}
 
-Defines and executes behaviors and interactions of the project between the user and the client, the user and the server.
+- Defines and executes behaviors and interactions.
+- Mediates between the user and the client.
+- Mediates between the client and the server.
 
 {% endmarkdown %}
       </div>
@@ -364,7 +363,8 @@ Lets servers communicate with each other.
 {% markdown %}
 
 ```
-https://api.twitter.com/1.1/friends/ids.json?cursor=-1&screen_name=nikolaswise&count=5000
+https://api.twitter.com/1.1/friends/
+ids.json?cursor=-1&screen_name=nikolaswise&count=5000
 ```
 
 {% endmarkdown %}
@@ -386,11 +386,108 @@ Packages of code that allow easy implementation of complex functions
 {% markdown %}
 
 ```js
-twitter.getFollowersList({screename: 'nikolaswise', count: '5000'}, errorCallback, successCallback);
+twitter.getFollowersList({
+  screename: 'nikolaswise',
+  count: '5000'
+}, errorCallback, successCallback);
 ```
 {% endmarkdown %}
       </div>
     </div>
+
+    <div class="slide" id="32">
+      <div class="slide-content">
+{% markdown %}
+# So How do I Internet
+you have to make a web site, so how do you do that
+{% endmarkdown %}
+      </div>
+    </div>
+
+    <div class="slide" id="33">
+      <div class="slide-content">
+{% markdown %}
+- A Server
+- A CSS File
+- A JavaScript File
+- HTML Files
+{% endmarkdown %}
+      </div>
+    </div>
+
+    <div class="slide" id="34">
+      <div class="slide-content">
+{% markdown %}
+# A Server
+Github Pages
+
+nikolaswise.github.io/web-design-workshop
+{% endmarkdown %}
+      </div>
+    </div>
+
+    <div class="slide" id="35">
+      <div class="slide-content">
+{% markdown %}
+# A CSS File
+```css
+<!-- style.js -->
+body {
+  background-color: #fefefe;
+  color: #333333;
+}
+```
+{% endmarkdown %}
+      </div>
+    </div>
+
+    <div class="slide" id="36">
+      <div class="slide-content">
+{% markdown %}
+# A JS File
+
+```js
+<!-- script.js -->
+window.addEventListener('click', hello);
+function hello (e) {
+  console.log('hello world');
+}
+```
+{% endmarkdown %}
+      </div>
+    </div>
+
+    <div class="slide" id="37">
+      <div class="slide-content">
+{% markdown %}
+# HTML Files
+
+```html
+<! index.html>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>My Cool Internet</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="./a-cool-page.html"></a>
+    <a href="./another-great-page.html"></a>
+    <h1>Pretty Great And Cool</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
+{% endmarkdown %}
+      </div>
+    </div>
+
+
+
 
     <script src="slides.js" async></script>
   </body>

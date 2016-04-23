@@ -29,6 +29,7 @@
     "img": "imagemin-newer source/ build/",
     "html": "static-site -b build",
     "js": "uglifyjs source/slides.js -o build/slides.js",
+    "postjs": "cp source/bmo.js build",
     "prestart": "npm-run-series img sass html js",
     "start": "parallelshell 'live-server build/' 'rerun-script' 'npm run sass -- -w'",
     "predeploy": "npm run prestart",
