@@ -101,7 +101,7 @@ Create a website using github pages using HTML, CSS, and JavaScript. This web si
 
 This website needs to be at least 5 distinct pages, with full navigation from each page to each other page. There must be significant styling using CSS, at least one interactive element using Javscript, and the HTML must be valid HTML 5.
 
-### 5/8 - How do they do that?
+### 5/1 - How do they do that?
 
 - Show off and briefly discuss student web sites
 - Talk about what was hard, what was easy
