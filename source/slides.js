@@ -29,6 +29,4 @@
     if (e.keyCode === 37) { prev() }
     if (e.keyCode === 39) { next() }
   })
-
-  window.addEventListener('click', next)
 })()
