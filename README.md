@@ -43,7 +43,7 @@ Office hours can be scheduled on an individual bases as needed.
 
 ### Grading
 
-All projects must be finished during the term. Finall grades will be based on overall participation and engagement with the material. Not finishing any one of the projects will result in an F. An A+ will be contingent on demonstrating exemplary growth in the duration of the course.
+All projects must be finished during the term. Final grades will be based on overall participation and engagement with the material. Not finishing any one of the projects will result in an F. An A+ will be contingent on demonstrating exemplary growth in the duration of the course.
 
 ### Attendance
 
@@ -59,7 +59,7 @@ Under certain circumstances (computer caught on fire / chopped off fingers), ext
 
 ### Canceled Classes
 
-If I need to cancel a class (chopped off fingers / computer caught on fire) I will notify the class via e-mail, canvas, and twitter.
+If I need to cancel a class (chopped off fingers / computer caught on fire) I will notify the class via e-mail, Canvas, and Twitter.
 
 ### Universality, Inclusion, and Conduct
 
