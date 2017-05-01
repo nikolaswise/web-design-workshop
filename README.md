@@ -107,6 +107,9 @@ This website needs to be at least 5 distinct pages, with full navigation from ea
 
 #### For Next Session
 
+Read [_Grimoir Computer_](http://grimoire.computer/) by Ingrid Burrington and Meredith Whittaker 
+Read [What Screens Want](https://www.frankchimero.com/writing/what-screens-want/) by Frank Chimero
+
 Identify examples of world-class web design outside of the field of journalism. Identify examples of awful, truly terrible web design as well. Be prepared to discuss these examples, and how at least one of the disciplines of design is evident in your selections.
 
 Create an [issue](https://guides.github.com/features/issues/) on this repository with a link to the website, and a couple of paragraphs on why it is good or bad. Label your issue 'good' or 'bad'.
