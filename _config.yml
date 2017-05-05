@@ -1,0 +1,50 @@
+# Dependencies
+markdown:             redcarpet
+highlighter:          pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:            pretty
+relative_permalinks:  true
+
+# Setup
+title:                J608
+tagline:              'Web Design Workshop - Introductory Pixel Pushing'
+description:          "An introduction to the principles and practice of designing things for the Internet."
+url:                  /web-design-workshop
+baseurl:              '/web-design-workshop'
+paginate:             5
+
+# About/contact
+author:
+  name:               'Nikolas Wise'
+  url:                https://github.com/nikolaswise
+
+# Custom vars
+version:              1.0.0
+
+github:
+  repo:               https://github.com/nikolaswise/web-design-workshop
+
+# Extra
+safe:                 true # replicate gh-pages env
+timezone:             America/Los_Angeles
+encoding:             utf-8
+
+# fix for weird travis-ci build error
+# http://www.markcampbell.me/jekyll/heroku/2013/05/18/how-to-set-up-jekyll-on-heroku.html
+exclude:              ['vendor']
+
+collections:
+  slides:
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'slides'
+    values:
+      layout: 'slides'
