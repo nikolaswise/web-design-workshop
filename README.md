@@ -14,7 +14,7 @@ This workshop will introduce the professional practice, language, and methodolog
 
 In the course of this workshop, we will be introducing and discussing both the technical structures of web design as well as the independent disciplines within the field. You will be learning the basics of creating web sites, starting from HTML, CSS, and JavaScript. Alongside the basics, you will produce a project that combines your journalistic process with one of the disciplines of web design. The final day of class will be a discussion of these projects, demonstrating a firm grasp of how to communicate in a web-driven design discussion.
 
-Graduate students will be expected to engage in a more rigorous final project, and will produce more work in assignments as described in the [schedule](#schedule)
+Graduate students will be expected to engage in a more rigorous final project, and will produce more work in assignments as described in the [schedule](#schedule).
 
 ## Outcomes
 
@@ -22,17 +22,17 @@ At the end of this workshop, you will be able to:
 
 - Competently engage in web design discussions.
 - Understand and use the basics of HTML, CSS, and JS.
-- Engage in industry standard workflows involving Github and Markdown.
+- Engage in industry standard workflows involving GitHub and Markdown.
 
 ## Office Hours
 
-Office hours can be scheduled on an individual bases as needed.
+Office hours can be scheduled on an individual basis as needed.
 
 ## Policies
 
 ### Grading
 
-All projects must be finished during the term. Finall grades will be based on overall participation and engagement with the material. Not finishing any one of the projects will result in an F. An A+ will be contingent on demonstrating exemplary growth in the duration of the course.
+All projects must be finished during the term. Final grades will be based on overall participation and engagement with the material. Not finishing any one of the projects will result in an F. An A+ will be contingent on demonstrating exemplary growth in the duration of the course.
 
 ### Attendance
 
@@ -40,7 +40,7 @@ You will attend each of the 4 sessions. Exceptions may be made for funerals and 
 
 ### Submitting Work
 
-All assignment will be submitted on [Github](https://github.com)
+All assignment will be submitted on [GitHub](https://github.com)
 
 ### Missed Work
 
@@ -48,7 +48,7 @@ Under certain circumstances (computer caught on fire / chopped off fingers), ext
 
 ### Canceled Classes
 
-If I need to cancel a class (chopped off fingers / computer caught on fire) I will notify the class via e-mail, canvas, and twitter.
+If I need to cancel a class (chopped off fingers / computer caught on fire) I will notify the class via e-mail, Canvas, and Twitter.
 
 ### Universality, Inclusion, and Conduct
 
@@ -56,7 +56,7 @@ I am committed to teaching a class where all are welcome and included, with Univ
 
 ## Preparation
 
-- Sign up for an [account on Github](https://github.com/join?source=header-home).
+- Sign up for an [account on GitHub](https://github.com/join?source=header-home).
 - [Fork](https://help.github.com/articles/fork-a-repo/) this [repository](https://github.com/nikolaswise/web-design-workshop).
 - Fixing typos in this syllabus via a [Pull Request](https://help.github.com/articles/using-pull-requests/) will be seen as an excellent start.
 
@@ -73,7 +73,7 @@ The below articles from [_A List Apart_](http://alistapart.com/) are a small sam
 ## Schedule
 
 ### Before The First Session
-- Sign up for an [account on Github](https://github.com/join?source=header-home).
+- Sign up for an [account on GitHub](https://github.com/join?source=header-home).
 - [Fork](https://help.github.com/articles/fork-a-repo/) this [repository](https://github.com/nikolaswise/web-design-workshop).
 - Fixing typos in this syllabus via a [Pull Request](https://help.github.com/articles/using-pull-requests/) will be seen as an excellent start.
 
@@ -87,7 +87,7 @@ The below articles from [_A List Apart_](http://alistapart.com/) are a small sam
 
 Read Paul Ford's excellent expose [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
-Create a website using github pages using HTML, CSS, and JavaScript. This web site needs at least 3 pages. The content should be something that you think is interesting. An explanation of the project will live in the repo's `README.md` file, and be written in Markdown.
+Create a website using github pages using HTML, CSS, and JavaScript. This website needs at least 3 pages. The content should be something that you think is interesting. An explanation of the project will live in the repo's `README.md` file, and be written in Markdown.
 
 ##### Resources
 
@@ -101,8 +101,8 @@ This website needs to be at least 5 distinct pages, with full navigation from ea
 
 ### 4/30 - How do they do that?
 
-- Show off and briefly discuss student web sites
-- Talk about what was hard, what was easy
+- Show off and briefly discuss student websites.
+- Talk about what was hard, what was easy.
 - Explore some professional websites, taking a look under the hood.
 
 #### For Next Session
@@ -125,11 +125,11 @@ Provide 2 examples of each. Much more depth in analysis and critique is expected
 
 #### For Next Session
 
-Complete your project laid out in todays workshop. Be prepared to present and have a discussion about your project.
+Complete your project laid out in today's workshop. Be prepared to present and have a discussion about your project.
 
 ##### Grad Students
 
-Will write ~1k words on how their project relates to the discussions about design critique and sub-disciplines, provided references and examples from the web.
+Will write ~1k words on how their project relates to the discussions about design critique and sub-disciplines, provide references and examples from the web.
 
 ### 6/04 - Project Review
 
